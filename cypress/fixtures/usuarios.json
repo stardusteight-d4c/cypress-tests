@@ -1,0 +1,32 @@
+[
+  {
+    "email": "juejs@email.com",
+    "fullName": "Jue Yabuki",
+    "userName": "juejs",
+    "password": "123456"
+  },
+  {
+    "email": "qualjs@email.com",
+    "fullName": "Qual Yabuki",
+    "userName": "qualjs",
+    "password": "123886"
+  },
+  {
+    "email": "josed@email.com",
+    "fullName": "Josef Tanuki",
+    "userName": "josed",
+    "password": "password"
+  },
+  {
+    "email": "jibes@email.com",
+    "fullName": "Juvus Sous",
+    "userName": "juesi",
+    "password": "soudemais"
+  },
+  {
+    "email": "tester@email.com",
+    "fullName": "Tester Venas",
+    "userName": "testd",
+    "password": "senha123"
+  }
+]
