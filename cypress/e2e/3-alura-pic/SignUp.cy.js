@@ -1,6 +1,6 @@
 describe("Verificar mensagens de validação no SignUp de usuários:", () => {
   beforeEach(() => {
-    cy.visit("http://alura-fotos.herokuapp.com/#/home");
+    cy.visit("/");
   });
 
   it("Mensagem de validação", () => {
@@ -54,24 +54,6 @@ describe("Verificar mensagens de validação no SignUp de usuários:", () => {
         );
         cy.contains("button", "Register").click();
       });
-    });
-  });
-});
-
-describe("Verificar mensagens de validação no SignIn de usuários:", () => {
-  beforeEach(() => {
-    cy.visit("http://alura-fotos.herokuapp.com/#/home");
-  });
-
-  it("Fazer login de usuario válido", () => {
-    cy.login("flavio", "123");
-    cy.contains("a", "Logout").should("be.visible");
-  });
-
-  it("Fazer login de usuario inválido", () => {
-    cy.login("flavio", "1234");
-    cy.on("window:alert", (str) => {
-      expect(str).to.equal("Invalid user name or password");
     });
   });
 });

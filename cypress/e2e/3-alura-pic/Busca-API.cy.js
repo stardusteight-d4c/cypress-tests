@@ -22,7 +22,7 @@ describe("Buscar fotos e dados", () => {
       expect(response.body).to.have.property("id");
       expect(response.body.id).to.be.equal(1);
       expect(response.body).to.have.property("email");
-      expect(response.body.email).to.be.equal("flavio@alurapic.com.br");
+      expect(response.body.email).to.be.equal(Cypress.env("email"));
     });
   });
 });

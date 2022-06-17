@@ -3,7 +3,7 @@
     "email": "juejs@email.com",
     "fullName": "Jue Yabuki",
     "userName": "juejs",
-    "password": "123456"
+    "password": "123456abx"
   },
   {
     "email": "qualjs@email.com",
@@ -15,18 +15,18 @@
     "email": "josed@email.com",
     "fullName": "Josef Tanuki",
     "userName": "josed",
-    "password": "password"
+    "password": "password12"
   },
   {
     "email": "jibes@email.com",
     "fullName": "Juvus Sous",
     "userName": "juesi",
-    "password": "soudemais"
+    "password": "soudemais125"
   },
   {
     "email": "tester@email.com",
     "fullName": "Tester Venas",
     "userName": "testd",
-    "password": "senha123"
+    "password": "senha12345"
   }
 ]
